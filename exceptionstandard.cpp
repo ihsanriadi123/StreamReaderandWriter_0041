@@ -12,7 +12,6 @@ int main() {
 		cout << data.at(5) << endl;
 		//memanggil array elemen ke 5
 	}
-    
 	catch (exception& e) {
 		//penangkap menggunakan obyek exection
 		cout << e.what() << endl;
@@ -20,5 +19,7 @@ int main() {
 	}
 	cout << "baris program yang terakhir" << endl;
 	/*penanda 2: bahasa program berjalan tanpa berhenti meskipun terjadi kesalahan*/
+    return 0;
 }
 	
+    
