@@ -33,13 +33,13 @@ int main() {
     //selesai dala menulis sekarang tutup filenya
     outfile.close();
    
-   
 
    //membuka file dalam mode memabaca
    ifstream infile;
 
    //menunjuk ke sebuah nama file
    infile.open(namafile + ".txt", ios::in);
+    
     
 
 }
