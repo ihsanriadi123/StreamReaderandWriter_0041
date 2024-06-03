@@ -17,7 +17,6 @@ int main() {
 
     cout << ">= menulis file, \'q\' untuk keluar" << endl;
 
-
     //unlimited loop untuk menulis
     while (true) {
         cout << "- ";
@@ -30,6 +29,7 @@ int main() {
         //menulis  dan memasukkan nilai dari 'baris' ke dalamn file
         outfile << baris << endl;
     }
+    
     //selesai dala menulis sekarang tutup filenya
     outfile.close();
    
