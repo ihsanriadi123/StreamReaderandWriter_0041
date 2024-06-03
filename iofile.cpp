@@ -25,7 +25,6 @@ int main() {
         }
         outfile << baris << endl;
     }
-    
     //selesai dalam menulis sekarang tutup filenya
     outfile.close();
     
@@ -45,5 +44,6 @@ int main() {
         }
         //tutup file tersebut setelah selesai
         infile.close();
+    
     
 }
